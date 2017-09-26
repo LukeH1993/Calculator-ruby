@@ -37,38 +37,37 @@ case type
 	when "+"
 		# get_numbers num1, num2
 		puts "Please enter your first number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts "Please enter your second number"
-		num2 = gets.chomp
+		num2 = gets.to_f
 		puts addNumbers num1, num2
 	when "-"
 		# get_numbers num1, num2
 		puts "Please enter your first number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts "Please enter your second number"
-		num2 = gets.chomp
+		num2 = gets.to_f
 		puts subtractNumbers num1, num2
 	when "*"
 		# get_numbers num1, num2
 		puts "Please enter your first number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts "Please enter your second number"
-		num2 = gets.chomp
+		num2 = gets.to_f
 		puts multiplyNumbers num1, num2
 	when "/"
 		# get_numbers num1, num2
 		puts "Please enter your first number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts "Please enter your second number"
-		num2 = gets.chomp
+		num2 = gets.to_f
 		puts divideNumbers num1, num2
 	when "sqrt"
 		puts "please enter a number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts sqaureRoot num1
 	when "pwr"
 		puts "Please enter your first number"
-		num1 = gets.chomp
+		num1 = gets.to_f
 		puts powers num1
 	end
-
